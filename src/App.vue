@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <nav-bar></nav-bar>
-    <!-- <play-bar></play-bar> -->
+    <play-bar></play-bar>
     <router-view />
   </div>
 </template>
 
 <script>
 import NavBar from "./components/NavBar";
-// import PlayBar from "./components/PlayBar.vue";
+import PlayBar from "./components/PlayBar.vue";
 
 export default {
   components: {
     NavBar,
-    // PlayBar,
+    PlayBar,
   },
 };
 </script>

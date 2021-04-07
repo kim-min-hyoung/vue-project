@@ -2,7 +2,7 @@
   <div class="mainPage">
     <h1 class="title">{{ msg }}</h1>
     <div class="sub">
-      <h2 class="subTitle">좋아하는 {{ msg }}</h2>
+      <h2 v-if="vIfTest" class="subTitle">좋아하는 {{ msg }}</h2>
       <p class="prag">{{ msg2 }}</p>
     </div>
   </div>
@@ -14,6 +14,7 @@ export default {
   props: {
     msg: String,
     msg2: String,
+    vIfTest: Boolean,
   },
 };
 </script>

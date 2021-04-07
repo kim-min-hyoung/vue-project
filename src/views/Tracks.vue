@@ -1,6 +1,10 @@
 <template>
   <div class="tracks">
-    <MainPage msg="노래" msg2="내가 좋아하는 노래들을 모아서 감상해보세요." />
+    <MainPage
+      msg="노래"
+      msg2="내가 좋아하는 노래들을 모아서 감상해보세요."
+      :vIfTest="true"
+    />
   </div>
 </template>
 

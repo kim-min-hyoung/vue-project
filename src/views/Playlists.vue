@@ -1,11 +1,11 @@
 <template>
   <div class="playlists">
-    <MainPage msg="플레이리스트" />
+    <MainPage msg="플레이리스트" :vIfTest="true" />
   </div>
 </template>
 
 <script>
-import MainPage from "../components/MainPage";
+import MainPage from "@/components/MainPage.vue";
 
 export default {
   name: "mainPage",

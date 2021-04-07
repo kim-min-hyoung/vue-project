@@ -3,6 +3,7 @@
     <MainPage
       msg="아티스트"
       msg2="내가 좋아하는 아티스트를 보관함에서 확인해보세요."
+      :vIfTest="true"
     />
   </div>
 </template>
